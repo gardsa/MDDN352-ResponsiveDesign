@@ -6,6 +6,7 @@
     <title>Responsive Web Design</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <script src="scripts.js"></script>
   </head>
   <body>
@@ -45,6 +46,11 @@
           <p>
             A breakpoint is a predefined point where the CSS rules change, like on this site where larger screens have 3 columns, but a mobile would only see 1 column.
           </p>
+          <code>
+            <span>@media (min-width: 1024px) {</span>
+            <span class="indent comment">/*new CSS rules*/</span>
+            <span>}</span>
+          </code>
       	</div>
       	<div class="col three-by-three">
           <h3>Max/Min Values</h3>
@@ -53,16 +59,22 @@
           </p>
           <code>
             <span>div {</span>
-              <span class="indent">width: 100%;</span>
-              <span class="indent">max-width: 1000px;</span>
-              <span>}</span>
-            </code>
+            <span class="indent">width: 100%;</span>
+            <span class="indent">max-width: 1000px;</span>
+            <span>}</span>
+          </code>
       	</div>
       	<div class="col three-by-three">
           <h3>Nested Objects</h3>
           <p>
             When a lot of elements depend on one another, things get complicated really fast. Wrapping groups of elements in separate containers keeps it clean and tidy.
           </p>
+          <code>
+            <span>&lt;div&gt;</span>
+            <span class="indent">&lt;h2&gt;Page Title&lt;/h2&gt;</span>
+            <span class="indent">&lt;p&gt;Page Content&lt;/p&gt;</span>
+            <span>&lt;/div&gt;</span>
+          </code>
       	</div>
       </div>
       <div class="section group">
