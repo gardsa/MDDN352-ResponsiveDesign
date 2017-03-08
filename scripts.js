@@ -5,7 +5,7 @@ function setScreenSizeElem(){
       screenHeight = window.innerHeight;
 
   screenSizeElem = document.getElementById('viewport-size');
-  screenSizeElem.innerHTML = "Width: " + screenWidth + " | Height: " + screenHeight;
+  screenSizeElem.innerHTML = "Screen Size: " + screenWidth + " x " + screenHeight;
 }
 
 document.addEventListener('DOMContentLoaded', function(){
@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function(){
 });
 
 window.addEventListener('resize', function(){
-    if (screenSizeElem != null){
-      setScreenSizeElem();
-    }
+  if (screenSizeElem != null){
+    setScreenSizeElem();
+  }
 });

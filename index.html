@@ -16,15 +16,74 @@
       </h2>
     </div>
     <div class="page-content">
-      <div class="main">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus placerat faucibus tortor posuere lobortis. In venenatis turpis id ipsum maximus consectetur. Aenean ac nulla nulla. Nam scelerisque facilisis leo, id tempor sem euismod eu. Aenean ipsum nisi, pharetra sit amet orci vitae, pulvinar dictum lacus.
-        </p>
+      <h3 class="info-blurb">
+        With such a large number of different-sized screens available, responsive web design is becoming more and more critical. There are a number of basic layout principles that we can utilise to embrace the fluidity of the web.
+      </h2>
+      <div class="section group">
+      	<div class="col three-by-three">
+          <h3>Responsive > Adapative</h3>
+          <p>
+            Responsive is fluid and adapts to the size of the screen, whereas adaptive uses static layouts at particular breakpoints.
+          </p>
+      	</div>
+      	<div class="col three-by-three">
+          <h3>Flow</h3>
+          <p>
+            Smaller screen sizes mean content takes up more vertical space, so you need to consider the ordering (or flow) of elements across all screen sizes.
+          </p>
+      	</div>
+      	<div class="col three-by-three">
+          <h3>Relative Units</h3>
+          <p>
+            Using units such as % and em over px means that your content will appear correctly over a variety of screen sizes.
+          </p>
+      	</div>
       </div>
-      <div class="aside">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus placerat faucibus tortor posuere lobortis. In venenatis turpis id ipsum maximus consectetur. Aenean ac nulla nulla. Nam scelerisque facilisis leo, id tempor sem euismod eu. Aenean ipsum nisi, pharetra sit amet orci vitae, pulvinar dictum lacus.
-        </p>
+      <div class="section group">
+      	<div class="col three-by-three">
+          <h3>Breakpoints</h3>
+          <p>
+            A breakpoint is a predefined point where the CSS rules change, like on this site where larger screens have 3 columns, but a mobile would only see 1 column.
+          </p>
+      	</div>
+      	<div class="col three-by-three">
+          <h3>Max/Min Values</h3>
+          <p>
+            Sometimes you want content to take up the full width of a screen, but on a larger screen this would look strange.
+          </p>
+          <code>
+            <span>div {</span>
+              <span class="indent">width: 100%;</span>
+              <span class="indent">max-width: 1000px;</span>
+              <span>}</span>
+            </code>
+      	</div>
+      	<div class="col three-by-three">
+          <h3>Nested Objects</h3>
+          <p>
+            When a lot of elements depend on one another, things get complicated really fast. Wrapping groups of elements in separate containers keeps it clean and tidy.
+          </p>
+      	</div>
+      </div>
+      <div class="section group">
+      	<div class="col three-by-three">
+          <h3>Mobile or Desktop first?</h3>
+          <p>
+            Designing for mobile first allows you to progressively enhance your design. As mobile has the most limitations, you cater for these first, then add complexity for larger screens.
+          </p>
+      	</div>
+      	<div class="col three-by-three">
+          <h3>Fonts</h3>
+          <p>
+            Webfonts can result in a  slick looking website, however each has to be downloaded, affecting overall page load and speed. System fonts are fast, but when not stored locally, will fall back to a default font.
+          </p>
+      	</div>
+      	<div class="col three-by-three">
+          <h3>Bitmap or Vectors?</h3>
+          <p>
+            Detailed images with fancy effects are better used in a bitmap format such as .jpg, .png, or .gif. Vectors are great for simple icons, with the best choice being either SVG or icon fonts.
+          </p>
+      	</div>
       </div>
     </div>
   </body>
